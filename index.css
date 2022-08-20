@@ -1,0 +1,78 @@
+:root {
+    --bg-primary: #0b47d1;
+    --white-color: #fff;
+    --text-primary: #001364;
+}
+
+.text-primary {
+    color: var(--text-primary);
+}
+
+.text-primary-heading {
+    color: var(--bg-primary);
+}
+
+.bg-primary {
+    background-color: var(--bg-primary);
+}
+
+.bg-banner-img {
+    background-image: url(/img/Mask-Group-1.png);
+    background-size: 82%;
+    background-position: center;
+}
+
+.logo-div {
+    height: 36px;
+    border-right: 2px solid var(--white-color);
+    margin-right: 14px;
+    padding-right: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.search-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.search-btn {
+    width: auto;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 10px 50px;
+    background-color: var(--bg-primary);
+    color: var(--white-color);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.uk-form-icon:not(.uk-form-icon-flip)~.uk-input {
+    padding-left: 58px !important;
+}
+.uk-form-icon-flip~.uk-input {
+    padding-right: 135px;
+}
+
+.b-radius-100 {
+    border-radius: 100px;
+}
+
+.uk-main-input {
+    border-radius: 100px;
+    background-color: var(--white-color) !important;
+    height: 48px !important;
+}
+
+.uk-main-input::placeholder {
+    font-size: 18px;
+    color: #ccc;
+}
