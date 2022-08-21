@@ -76,3 +76,51 @@
     font-size: 18px;
     color: #ccc;
 }
+
+.input-mini input {
+    height: 35px !important;
+}
+
+.input-mini input::placeholder {
+    font-size: 12px;
+    top: 10px;
+    position: absolute;
+}
+
+.input-mini .uk-form-icon:not(.uk-form-icon-flip)~.uk-input {
+    padding-left: 33px !important;
+}
+
+.input-mini .uk-form-icon-flip~.uk-input {
+    padding-right: 62px!important;
+}
+
+.input-mini a {
+    padding: 10px 10px;
+    font-size: 9px;
+}
+
+.uk-accordion li {
+    border-top: 1px solid #e1e1e1;
+    transition: padding 0.1s;
+}
+
+.uk-accordion .uk-open {
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.uk-description-list dd {
+    font-size: 12px;
+    margin-left: 22px;
+}
+
+.uk-accordion>:nth-child(n+1) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+
+.uk-description-list>dt {
+    text-transform: unset;
+}
